@@ -1,1 +1,2 @@
-# Sign-up-form
+took like 5 maybe 4 days to get to this part definetley going to have to review what I did again later but I got the gist and can type up when I feel like it.
+well this project took me a day give or take. now that im done more or less doing it over i could do it much better and more neatly but w/e. 

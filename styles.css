@@ -1,0 +1,148 @@
+/* Minimal Css Reser from digital ocean */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+ 
+  
+  body, h1, h3, h4, h5, h6, ol, ul {
+     margin: 0;
+    padding: 0; 
+    
+    
+  }
+  
+  ol, ul {
+     list-style: none; 
+  }
+  
+
+
+
+/* CSS I added */
+.maincontainer {
+    display: flex;
+    justify-content: center;
+   
+}
+* {
+    font-family:'Times New Roman', Times, serif;
+    /* border: 1px solid brown; */
+}
+
+h2 {
+    padding-left: 16px;
+    padding-bottom: 0px;
+}
+
+form {
+    
+   
+}
+
+p {
+ font-size: 20px;
+ padding-left: 16px;
+ font-weight: bold;
+}
+
+
+
+.shadowborder {
+    
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid rgb(121, 7, 7);
+    box-shadow: 0px 10px 8px rgb(157, 27, 233), 0px -2px 5px rgba(255, 255, 255, 0.075);
+    
+    
+}
+
+
+.miniflexcontainer { 
+    display: flex;
+   
+    border: none;
+}
+
+
+.sideinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+}
+
+.flexitem1 {
+    /* border: 2px solid blueviolet; */
+    padding-right: 40px;
+}
+.flexitem2 {
+    /* border: 2px solid springgreen; */
+
+}
+button {
+   margin: 40px 0px 10px 16px;
+   padding-left: 45px;
+   padding-right: 45px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border: 5px solid rgb(7, 34, 121);
+   border-radius: 1em;
+  background-color: #96d1df;
+  color: rgb(0, 0, 0);
+  font: 1em sans-serif;
+}
+
+
+input {
+  font: 1em sans-serif;
+  border: 1.5px solid rgb(92, 2, 80);
+}
+
+a {
+    padding-left: 1px;
+    font-size: 20px;
+}
+
+/* <div class="sidepicture">
+            <img src="images/sideimage.jpg" alt="Photo by someone at somewhere">
+        </div> */
+
+.logo {
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    padding-left: 70px;
+    
+}
+
+.logotext {
+    font-size: 60px;
+    color: black;
+    padding-right: 70px;
+}
+
+.pinkcolor {
+    background-color: rgba(255, 0, 140, 0.4);
+    display: flex;
+    margin-top: 10vh;
+}
+
+.sidepicture {
+    background-image: url("images/sideimage.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+input:focus {
+    transition: 0.3s;
+    box-shadow: 0 0 1.5px 1px rgba(255, 0, 140, 0.4);
+    outline: none;
+}
